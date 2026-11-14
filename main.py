@@ -815,8 +815,6 @@ assert_equal(
 # 9. SAVE DESIRE
 # ------------------------------------------
 
-test = State([], "None selected", [], [], [])
-
 # Empty input
 
 save_desire(test, "")
