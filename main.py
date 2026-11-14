@@ -7,7 +7,7 @@ set_website_title("Project Optimizer")
 set_site_information(
     author="Steve Baltazar-Mendez",
     description="Put projects in, constraints, desires, and rate them in order to come out with the best one",
-    sources="AI Conversation CISC-106 - Steve B-M.pdf",
+    sources="AI Conversation CISC-106 - Steve BM.pdf",
     planning=["Project-Optimizer Brainstorm.docx", "Project-Optimizer Design.docx"],
     links=[]
 )
