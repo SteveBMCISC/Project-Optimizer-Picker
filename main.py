@@ -1,5 +1,5 @@
 from bakery import assert_equal
-from drafter import *
+import drafter
 from dataclasses import dataclass
 
 set_website_title("Project Optimizer")
