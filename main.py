@@ -2,9 +2,6 @@ from bakery import assert_equal
 from drafter import *
 from dataclasses import dataclass
 
-from drafter import *
-from dataclasses import dataclass
-
 set_website_title("Project Optimizer")
 set_site_information(
     author="Steve Baltazar-Mendez",
