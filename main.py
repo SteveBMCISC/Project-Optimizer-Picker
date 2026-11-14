@@ -1017,3 +1017,13 @@ assert_equal(
     most_optimal(test).content[0],
     Header("All Project Results")
 )
+
+start_server(
+    State(
+        projects=[],
+        compared_project="None selected",
+        constraints=[],
+        desires=[],
+        best_project=""
+    )
+)
