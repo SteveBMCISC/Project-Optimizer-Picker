@@ -565,7 +565,7 @@ def best_project(state: State) -> Page:
             Button("Rate Projects", "project_rater"),
             Button("Home", "index")
         ])
-    content = [
+    content: list[Content] = [
         Header("Most Optimal Project")
     ]
     for project in state.projects:
