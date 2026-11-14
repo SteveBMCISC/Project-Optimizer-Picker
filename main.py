@@ -2,8 +2,17 @@ from bakery import assert_equal
 from drafter import *
 from dataclasses import dataclass
 
+from drafter import *
+from dataclasses import dataclass
 
-
+set_website_title("Project Optimizer")
+set_site_information(
+    author="Steve Baltazar-Mendez",
+    description="Put projects in, constraints, desires, and rate them in order to come out with the best one",
+    sources="AI Conversation CISC-106 - Steve B-M",
+    planning=["Project-Optimizer Brainstorm", "Project-Optimizer Design"],
+    links=[]
+)
 hide_debug_information()
 
 # ==========================================
@@ -1008,19 +1017,3 @@ assert_equal(
     most_optimal(test).content[0],
     Header("All Project Results")
 )
-
-# ==========================================
-# START WEBSITE
-# ==========================================
-
-start_server(
-    State(
-        projects=[],
-        compared_project="None selected",
-        constraints=[],
-        desires=[],
-        best_project=""
-    )
-)
-
-
